@@ -1,0 +1,299 @@
+{
+  "tasks": [
+    {
+      "name": "Sweep Floor",
+      "difficulty": 3,
+      "due_date": "05/14",
+      "owner": "Steven",
+      "id": 0,
+      "description": "Clean the floor",
+      "category": "Living Room",
+      "frequency": "Weekly",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 0
+    },
+    {
+      "name": "Clean Couch",
+      "difficulty": 3,
+      "due_date": "04/28",
+      "owner": "Phil",
+      "id": 1,
+      "description": "Clean the couch",
+      "category": "Living Room",
+      "frequency": "Weekly",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 0
+    },
+    {
+      "name": "Clean Dishes",
+      "difficulty": 1,
+      "due_date": "04/23",
+      "owner": "Steven",
+      "id": 2,
+      "description": "Clean the dishes",
+      "category": "Kitchen",
+      "frequency": "Daily",
+      "sensitive": "Yes",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 0
+    },
+    {
+      "name": "Clean Shower",
+      "difficulty": 1,
+      "due_date": "03/22",
+      "owner": "Steven",
+      "id": 3,
+      "description": "Cleans the shower in the bathroom",
+      "category": "Bathroom",
+      "frequency": "Monthly",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 0
+    },
+    {
+      "name": "Vacuum",
+      "difficulty": "2",
+      "due_date": "05/07",
+      "owner": "Yeasmin",
+      "id": 4,
+      "description": "Vacuum floor for party",
+      "category": "Living Room",
+      "frequency": "",
+      "sensitive": "Yes",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 4
+    },
+    {
+      "name": "Wash dishes",
+      "difficulty": 1,
+      "due_date": "05/03",
+      "owner": "Jack",
+      "id": 5,
+      "description": "Wash dishes for today",
+      "category": "Kitchen",
+      "frequency": "Daily",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 4
+    },
+    {
+      "name": "Clean sink",
+      "difficulty": 1,
+      "due_date": "05/07",
+      "owner": "Yi",
+      "id": 6,
+      "description": "Clean the bathroom sink",
+      "category": "Bathroom",
+      "frequency": "",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 4
+    },
+    {
+      "name": "Mop floors",
+      "difficulty": "2",
+      "due_date": "05/07",
+      "owner": "David",
+      "id": 7,
+      "description": "Mop the floors",
+      "category": "Family room",
+      "frequency": "",
+      "sensitive": "No",
+      "complete_date": "Not completed",
+      "completed": false,
+      "houseID": 4
+    }
+  ],
+  "comments": [
+    {
+      "taskID": 2,
+      "id": 0,
+      "owner": "Phil",
+      "content": "Good Job!"
+    },
+    {
+      "taskID": 2,
+      "id": 1,
+      "owner": "Steven",
+      "content": "Thank you!"
+    },
+    {
+      "taskID": 2,
+      "id": 2,
+      "owner": "Willie",
+      "content": "Sink needs to be cleaned"
+    },
+    {
+      "taskID": 0,
+      "id": 3,
+      "owner": "Phil",
+      "content": "Good Job!"
+    },
+    {
+      "taskID": 2,
+      "id": 4,
+      "owner": "Phil",
+      "content": "4th times the charm"
+    },
+    {
+      "taskID": 0,
+      "id": 5,
+      "owner": "Steven",
+      "content": "We do our best"
+    },
+    {
+      "taskID": 0,
+      "id": 7,
+      "owner": "Steven",
+      "content": "Good one maaaate"
+    },
+    {
+      "taskID": 0,
+      "id": 8,
+      "owner": "Steven",
+      "content": "there he is"
+    },
+    {
+      "taskID": 0,
+      "id": 11,
+      "owner": "Steven",
+      "content": "there he go"
+    },
+    {
+      "taskID": 0,
+      "id": 15,
+      "owner": "Steven",
+      "content": "something familiar"
+    },
+    {
+      "taskID": 6,
+      "id": 10,
+      "owner": "David",
+      "content": "Great job"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Living Room"
+    },
+    {
+      "id": 1,
+      "name": "Kitchen"
+    },
+    {
+      "id": 2,
+      "name": "Bathroom"
+    },
+    {
+      "id": 3,
+      "name": "Family room"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "name": "Steven",
+      "email": "steve@yahoo.com",
+      "password": "password",
+      "houseID": 0
+    },
+    {
+      "id": 1,
+      "name": "Phil",
+      "email": "phil@yahoo.com",
+      "password": "password",
+      "houseID": 0
+    },
+    {
+      "id": 2,
+      "name": "Charles",
+      "email": "charles@yahoo.com",
+      "password": "password",
+      "houseID": 1
+    },
+    {
+      "id": 3,
+      "name": "David",
+      "email": "dtchaou@vt.edu",
+      "password": "pass",
+      "houseID": 2
+    },
+    {
+      "id": 4,
+      "name": "test` 1",
+      "email": "test@yahoo.com",
+      "password": "pass",
+      "houseID": 3
+    },
+    {
+      "id": 5,
+      "name": "Yeasmin",
+      "email": "yeasmin@yahoo.com",
+      "password": "pass",
+      "houseID": 4
+    },
+    {
+      "id": 6,
+      "name": "Jack",
+      "email": "jack@yahoo.com",
+      "password": "pass",
+      "houseID": 4
+    },
+    {
+      "id": 7,
+      "name": "Yi",
+      "email": "yi@yahoo.com",
+      "password": "pass",
+      "houseID": 4
+    },
+    {
+      "id": 9,
+      "name": "David",
+      "email": "dtchaou@yahoo.com",
+      "password": "pass",
+      "houseID": 4
+    }
+  ],
+  "currentUser": {
+    "userID": 9,
+    "name": "David",
+    "houseID": 4
+  },
+  "houses": [
+    {
+      "id": 0,
+      "name": "Targaryen",
+      "routineCycleLength": "Weekly"
+    },
+    {
+      "id": 1,
+      "name": "Lannister",
+      "routineCycleLength": "Weekly"
+    },
+    {
+      "id": 2,
+      "name": "Tyrell",
+      "routineCycleLength": "Weekly"
+    },
+    {
+      "id": 3,
+      "name": "test house",
+      "routineCycleLength": "Weekly"
+    },
+    {
+      "id": 4,
+      "name": "The Hive",
+      "routineCycleLength": "Weekly"
+    }
+  ]
+}

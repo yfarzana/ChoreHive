@@ -1,0 +1,32 @@
+{
+  "name": "chorehive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "backend": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.1.35",
+    "@heroicons/vue": "^1.0.1",
+    "@popperjs/core": "^2.9.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "chart.js": "^3.2.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "json-server": "^0.16.3",
+    "postcss": "^8.2.9",
+    "v-calendar": "^3.0.0-alpha.3",
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.0-0",
+    "vue-template-compiler": "2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
